@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Clock/>
+    <Links/>
   </div>
 </template>
 
 <script>
   import Clock from './components/Clock.vue'
+  import Links from './components/Links.vue'
 
   export default {
     name: 'App',
     components: {
-      Clock
+      Clock,
+      Links
     }
   }
 </script>
