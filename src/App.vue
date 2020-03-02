@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="subpixel-antialiased text-white w-full h-full bg-cover">
+  <div id="app" class="subpixel-antialiased text-white w-full h-full">
     <Google/>
     <Links/>
     <Clock/>
