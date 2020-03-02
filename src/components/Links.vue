@@ -1,5 +1,5 @@
 <template>
-  <ul class="links">
+  <ul class="links fixed right-0 top-0 px-4 text-right py-2 text-lg md:text-4xl">
     <li v-for="l in links" :key="l.url">
       <a :href="l.url">{{l.lbl}}</a>
     </li>
@@ -32,15 +32,4 @@
 </script>
 
 <style scoped>
-  .links {
-    position: fixed;
-    right: 40px;
-    top: 20px;
-    list-style: none;
-  }
-  .links a {
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-  }
 </style>

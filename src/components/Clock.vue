@@ -1,5 +1,5 @@
 <template>
-  <div class="clock">
+  <div class="clock fixed bottom-0 left-0 px-3 text-4xl md:text-6xl">
     {{ time }}
   </div>
 </template>
@@ -28,13 +28,5 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .clock {
-    color: white;
-    font-size: 10rem;
-    position: fixed;
-    left: 40px;
-    bottom: 10px;
-  }
 </style>
